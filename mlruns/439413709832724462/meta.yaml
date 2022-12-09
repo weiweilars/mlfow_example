@@ -1,6 +1,0 @@
-artifact_location: file:///home/weiwei/Documents/mlflow/mlruns/439413709832724462
-creation_time: 1669361677376
-experiment_id: '439413709832724462'
-last_update_time: 1669361677376
-lifecycle_stage: active
-name: ctgan_experiment

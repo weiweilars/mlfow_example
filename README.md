@@ -1,7 +1,11 @@
 # Instructions for Chapter 4
 
-## Set up conda virtual environment dl_model by running:
-   1. conda create -n dl_model python==3.9.15
-   2. conda activate dl_model
-   3. pip install -r requirements.txt
-## Set up a local full-fledged MLflow tracking and registry server by following the instructions in Chapter 3.
+## Set up backend for mlflow, params, metric, and model storage:
+   1. cd mlflow_docker_setup 
+   2. bash start_mlflow.sh 
+   3. bash stop_mlflow.sh (if you need close it later)
+## Running the pipeline 
+   1. cd ..
+   2. python main.py 
+## Check the result in local environment 
+   1. open localhost in web broswer 
