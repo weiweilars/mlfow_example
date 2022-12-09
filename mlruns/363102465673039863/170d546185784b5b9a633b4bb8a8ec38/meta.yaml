@@ -1,0 +1,15 @@
+artifact_uri: file:///home/weiwei/Documents/mlflow/mlruns/363102465673039863/170d546185784b5b9a633b4bb8a8ec38/artifacts
+end_time: 1669300795327
+entry_point_name: ''
+experiment_id: '363102465673039863'
+lifecycle_stage: active
+run_id: 170d546185784b5b9a633b4bb8a8ec38
+run_name: ctgan
+run_uuid: 170d546185784b5b9a633b4bb8a8ec38
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669300783524
+status: 4
+tags: []
+user_id: weiwei

@@ -1,0 +1,18 @@
+artifact_path: sdv_mlflow_pyfunc
+flavors:
+  python_function:
+    artifacts:
+      sdv_model:
+        path: artifacts/sdv_model.pkl
+        uri: sdv_model.pkl
+    cloudpickle_version: 2.2.0
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.9.15
+mlflow_version: 2.0.1
+model_uuid: c60bd842ee4741d7b506a210aff71152
+run_id: cec8469cc0ac49cf8aa7ec332f6a4cb2
+utc_time_created: '2022-11-25 07:29:46.978117'

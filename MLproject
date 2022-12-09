@@ -1,0 +1,43 @@
+name: ctgan_model
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      pipeline_steps:
+        description: Comma-separated list of dl pipeline steps to execute
+        type: str
+        default: all
+    command: "python main.py --steps {pipeline_steps}"
+
+  train_model:
+    parameters:
+      data_path:
+        description: the path to data
+        type: str
+        default: data/preprocessed_final.csv
+      epochs:
+        description: epochs to train a model
+        type: int
+        default: 200
+      batch_size:
+        description: the batch size to train a model
+        type: int
+        default: 100
+    command:
+      "python pipeline/train_model.py --data_path {data_path} \
+      --epochs {epochs} --batch_size {batch_size}"
+
+  register_model:
+    parameters:
+      mlflow_run_id:
+        description: a mlflow run id
+        type: str
+        default: None
+      registered_model_name:
+        description: a registered model name
+        type: str
+        default: ctgan_model
+    command:
+      "python pipeline/register_model.py --mlflow_run_id {mlflow_run_id} \
+      --registered_model_name {registered_model_name}"

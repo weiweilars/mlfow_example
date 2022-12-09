@@ -1,0 +1,15 @@
+artifact_uri: file:///home/weiwei/Documents/mlflow/mlruns/363102465673039863/a28b7fe002d14e058a9d262bdff92bf5/artifacts
+end_time: 1669300646958
+entry_point_name: ''
+experiment_id: '363102465673039863'
+lifecycle_stage: active
+run_id: a28b7fe002d14e058a9d262bdff92bf5
+run_name: chapter02
+run_uuid: a28b7fe002d14e058a9d262bdff92bf5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1669300273496
+status: 4
+tags: []
+user_id: weiwei
